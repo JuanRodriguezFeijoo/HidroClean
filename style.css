@@ -16,7 +16,7 @@
 
 .encabezado {
 
-    background-color: #3d6093;
+    background-image: linear-gradient(to right, #3d6093, #132b4e);
     padding: 20px;
 
     /* GRID */
@@ -45,6 +45,7 @@
     color: #fff;
     text-decoration: none;
     line-height: 50px;
+       
 }
 
 .encabezado .menuPrincipal {
@@ -188,7 +189,7 @@ header nav a:hover {
 
 
 .pie {
-    background-color: #3d6093;
+    background-image: linear-gradient(to left, #3d6093, #132b4e);
     padding: 20px;
 
     /* GRID */
@@ -218,6 +219,8 @@ footer .links a {
 
 footer .links a:hover {
     background: #E74C3C;
+    transform: rotateY(45deg);
+    transition: 1s;
 }
 
 
@@ -233,17 +236,6 @@ footer .social a {
     text-decoration: none;
 
 }
-
-
-
-.gradient {
-    background-image: linear-gradient(#3d6093, #fff);
-}
-
-
-
-
-
 
 /* MOBILE MEDIA QUERY inicio*/
 
